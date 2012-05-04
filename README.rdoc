@@ -14,14 +14,14 @@ The ToYn (To Yes/No) Gem allows simple translation of boolean values to an Engli
 
 == Examples
 
-you_are_awesome = true
-you_are_awesome.to_yn #=> "Yes"
+: you_are_awesome = true
+:: you_are_awesome.to_yn #=> "Yes"
 
-dot_net_rules = false
-dot_net_rules.to_yn #=> "No"
+: dot_net_rules = false
+:: dot_net_rules.to_yn #=> "No"
 
-nothing_to_see_here = nil
-nothing_to_see_here.to_yn #=> "No"
+: nothing_to_see_here = nil
+:: nothing_to_see_here.to_yn #=> "No"
 
 == Installation
 
@@ -35,4 +35,4 @@ In <b>Rails 2</b>, add this to your environment.rb file.
 
 == License
 
-This library is distributed under the MIT license.  Please see the LICENSE file.
+This library is distributed under the GNU General Public License.  Please see the LICENSE file.
