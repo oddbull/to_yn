@@ -14,22 +14,20 @@ The ToYn (To Yes/No) Gem allows simple translation of boolean values to an Engli
 
 == Examples
 
-```ruby
-you_are_awesome = true
-you_are_awesome.to_yn #=> "Yes"
-```
-- - -
+    you_are_awesome = true  
 
-```ruby
-dot_net_rules = false
-dot_net_rules.to_yn #=> "No"
-```
-- - -
+    you_are_awesome.to_yn #=> "Yes"
 
-```ruby
-nothing_to_see_here = nil
-nothing_to_see_here.to_yn #=> "No"
-```
+
+    dot_net_rules = false
+    
+    dot_net_rules.to_yn #=> "No"
+
+
+    nothing_to_see_here = nil
+    
+    nothing_to_see_here.to_yn #=> "No"
+
 
 == Installation
 
