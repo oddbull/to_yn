@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'to_yn'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2012-05-04'
   s.summary     = "To Yes/No"
   s.description = "Allows simple English evalutation of Boolean and Nil class(es)"

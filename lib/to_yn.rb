@@ -17,3 +17,9 @@ class NilClass
     "No"
   end
 end
+
+class Fixnum
+  def to_yn
+    self==0 ? "No" : "Yes"
+  end
+end
